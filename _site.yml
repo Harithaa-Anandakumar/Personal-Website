@@ -2,6 +2,7 @@ name: "Personal-Website"
 title: "Command Line Biologist"
 description: |
   Command Line Biologist
+base_url: https://musing-bhaskara-03ba6e.netlify.app
 output_dir: "_site"
 navbar:
   right:
