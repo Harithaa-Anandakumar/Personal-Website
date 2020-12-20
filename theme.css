@@ -36,7 +36,7 @@ html {
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    'IM Fell English SC', serif;
-  --mono-font:       "Alegreya", serif;
+  --mono-font:       "IM Fell English SC", serif;
   --body-font:      "Cormorant Garamond", serif;
   --navbar-font:     "IM Fell English SC", serif;
 }
