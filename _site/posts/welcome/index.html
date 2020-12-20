@@ -95,7 +95,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--  https://schema.org/Article -->
 <meta property="article:published" itemprop="datePublished" content="2020-12-20"/>
 <meta property="article:created" itemprop="dateCreated" content="2020-12-20"/>
-<meta name="article:author" content="Nora Jones"/>
+<meta name="article:author" content="Harithaa"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <meta property="og:title" content="Command Line Biologist: Welcome to Command Line Biologist"/>
@@ -116,18 +116,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta name="citation_fulltext_html_url" content="https://command-line-biologist.netlify.app/posts/welcome/"/>
 <meta name="citation_online_date" content="2020/12/20"/>
 <meta name="citation_publication_date" content="2020/12/20"/>
-<meta name="citation_author" content="Nora Jones"/>
+<meta name="citation_author" content="Harithaa"/>
 <meta name="citation_author_institution" content="Spacely Sprockets"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Welcome to Command Line Biologist"]},{"type":"character","attributes":{},"value":["Welcome to our new blog, Command Line Biologist. We hope you enjoy \nreading what we have to say!"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Nora Jones"]},{"type":"character","attributes":{},"value":["https://example.com/norajones"]},{"type":"character","attributes":{},"value":["Spacely Sprockets"]},{"type":"character","attributes":{},"value":["https://example.com/spacelysprokets"]}]}]},{"type":"character","attributes":{},"value":["12-20-2020"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://command-line-biologist.netlify.app/posts/welcome/"]},{"type":"character","attributes":{},"value":["https://command-line-biologist.netlify.app/posts/welcome/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Welcome to Command Line Biologist"]},{"type":"character","attributes":{},"value":["Welcome to our new blog, Command Line Biologist. We hope you enjoy \nreading what we have to say!"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Harithaa"]},{"type":"character","attributes":{},"value":["https://example.com/norajones"]},{"type":"character","attributes":{},"value":["Spacely Sprockets"]},{"type":"character","attributes":{},"value":["https://example.com/spacelysprokets"]}]}]},{"type":"character","attributes":{},"value":["12-20-2020"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://command-line-biologist.netlify.app/posts/welcome/"]},{"type":"character","attributes":{},"value":["https://command-line-biologist.netlify.app/posts/welcome/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"NULL"}
+  {"type":"character","attributes":{},"value":["welcome_files/anchor-4.2.2/anchor.min.js","welcome_files/bowser-1.9.3/bowser.min.js","welcome_files/distill-2.2.21/template.v2.js","welcome_files/jquery-1.11.3/jquery.min.js","welcome_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2100,26 +2100,35 @@ d-appendix {
 @import url('https://fonts.googleapis.com/css2?family=Chivo');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 
 html {
   /*-- Main font sizes --*/
   --title-size:      50px;
-  --body-size:       1.06rem;
+  --body-size:       2rem;
   --code-size:       14px;
   --aside-size:      12px;
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
-  --title-color:     #000000;
-  --header-color:    rgba(0, 0, 0, 0.8);
-  --body-color:      rgba(0, 0, 0, 0.8);
+  --title-color:  #BE2826  /* #000000;*/;
+  --header-color:  #A32826 /* rgba(0, 0, 0, 0.8)*/;
+  --body-color:     #2A2C2B/* rgba(0, 0, 0, 0.8)*/;
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    'Fira Mono', sans-serif;
-  --mono-font:       'Fira Mono', monospace;
-  --body-font:       'Lato', sans-serif;
-  --navbar-font:     "Fira Mono", serif;
+  --heading-font:    'IM Fell English SC', serif;
+  --mono-font:       'Alegreya', serif;
+  --body-font:       'Alegreya', serif;
+  --navbar-font:     "IM Fell English SC", serif;
+}
+
+
+
+body {
+  background-color: #fffff8;
 }
 
 /*-- ARTICLE METADATA --*/
@@ -2149,10 +2158,10 @@ d-appendix {
 
 .distill-site-header {
   --title-size:       18px;
-  --text-color:       #000;
+  --text-color:       #010326;
   --text-size:        15px;
   --hover-color:      #ff6700;
-  --bkgd-color:       white;
+  --bkgd-color:       #F0F0DD;
 }
 
 .distill-site-footer {
@@ -2324,7 +2333,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Welcome to Command Line Biologist","description":"Welcome to our new blog, Command Line Biologist. We hope you enjoy \nreading what we have to say!","authors":[{"author":"Nora Jones","authorURL":"https://example.com/norajones","affiliation":"Spacely Sprockets","affiliationURL":"https://example.com/spacelysprokets","orcidID":""}],"publishedDate":"2020-12-20T00:00:00.000+00:00","citationText":"Jones, 2020"}
+{"title":"Welcome to Command Line Biologist","description":"Welcome to our new blog, Command Line Biologist. We hope you enjoy \nreading what we have to say!","authors":[{"author":"Harithaa","authorURL":"https://example.com/norajones","affiliation":"Spacely Sprockets","affiliationURL":"https://example.com/spacelysprokets","orcidID":""}],"publishedDate":"2020-12-20T00:00:00.000+00:00","citationText":"Harithaa, 2020"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2355,12 +2364,17 @@ d-appendix d-footnote-list a.footnote-backlink {
 </div>
 
 <div class="d-byline">
-  Nora Jones <a href="https://example.com/norajones" class="uri">https://example.com/norajones</a> (Spacely Sprockets)<a href="https://example.com/spacelysprokets" class="uri">https://example.com/spacelysprokets</a>
+  Harithaa <a href="https://example.com/norajones" class="uri">https://example.com/norajones</a> (Spacely Sprockets)<a href="https://example.com/spacelysprokets" class="uri">https://example.com/spacelysprokets</a>
   
 <br/>12-20-2020
 </div>
 
 <div class="d-article">
+<p>Hello! It has been a gala time!</p>
+<h1 id="would-you-agree-that">would you agree that</h1>
+<ol type="1">
+<li>it was fun.</li>
+</ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2376,10 +2390,10 @@ d-appendix d-footnote-list a.footnote-backlink {
 <div class="appendix-bottom">
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Jones (2020, Dec. 20). Command Line Biologist: Welcome to Command Line Biologist. Retrieved from https://command-line-biologist.netlify.app/posts/welcome/</pre>
+  <pre class="citation-appendix short">Harithaa (2020, Dec. 20). Command Line Biologist: Welcome to Command Line Biologist. Retrieved from https://command-line-biologist.netlify.app/posts/welcome/</pre>
   <p>BibTeX citation</p>
-  <pre class="citation-appendix long">@misc{jones2020welcome,
-  author = {Jones, Nora},
+  <pre class="citation-appendix long">@misc{harithaa2020welcome,
+  author = {Harithaa, },
   title = {Command Line Biologist: Welcome to Command Line Biologist},
   url = {https://command-line-biologist.netlify.app/posts/welcome/},
   year = {2020}
