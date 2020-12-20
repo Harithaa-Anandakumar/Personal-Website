@@ -9,8 +9,16 @@
     <generator>Distill</generator>
     <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Customary 'made a Website' post!</title>
+      <dc:creator>Harithaa</dc:creator>
+      <link>https://command-line-biologist.netlify.app/posts/2020-12-20-customary-made-a-website-post</link>
+      <description>I made a website?</description>
+      <guid>https://command-line-biologist.netlify.app/posts/2020-12-20-customary-made-a-website-post</guid>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Welcome to Command Line Biologist</title>
-      <dc:creator>Nora Jones</dc:creator>
+      <dc:creator>Harithaa</dc:creator>
       <link>https://command-line-biologist.netlify.app/posts/welcome</link>
       <description>Welcome to our new blog, Command Line Biologist. We hope you enjoy 
 reading what we have to say!</description>

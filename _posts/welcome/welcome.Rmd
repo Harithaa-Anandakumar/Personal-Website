@@ -4,7 +4,7 @@ description: |
   Welcome to our new blog, Command Line Biologist. We hope you enjoy 
   reading what we have to say!
 author:
-  - name: Nora Jones 
+  - name: Harithaa 
     url: https://example.com/norajones
     affiliation: Spacely Sprockets
     affiliation_url: https://example.com/spacelysprokets
@@ -24,3 +24,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
+Hello! It has been a gala time!
+
+
+# would you agree that 
+  
+  1. it was fun. 

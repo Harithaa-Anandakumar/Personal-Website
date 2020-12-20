@@ -2,6 +2,7 @@ name: "Personal-Website"
 title: "Command Line Biologist"
 description: |
   Command Line Biologist
+theme: theme.css
 base_url: https://command-line-biologist.netlify.app
 output_dir: "_site"
 navbar:
@@ -14,4 +15,4 @@ navbar:
       href: projects.html
 output: 
   distill::distill_article
-theme: theme.css
+
