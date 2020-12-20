@@ -14,6 +14,14 @@
       "author": [],
       "contents": "\n\n\n\n",
       "last_modified": "2020-12-20T17:37:59+01:00"
+    },
+    {
+      "path": "projects.html",
+      "title": "Projects this blog",
+      "description": "huhhh",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2020-12-20T17:41:26+01:00"
     }
   ],
   "collections": ["posts/posts.json"]

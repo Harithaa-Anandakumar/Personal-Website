@@ -1,0 +1,9 @@
+---
+title: "Projects this blog"
+description: |
+  huhhh
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
