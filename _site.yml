@@ -6,11 +6,12 @@ base_url: https://musing-bhaskara-03ba6e.netlify.app
 output_dir: "_site"
 navbar:
   right:
-    - text: "Projects"
-      href: projects.html
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
-output: distill::distill_article
+    - text: "Projects"
+      href: projects.html
+output: 
+  distill::distill_article
 theme: theme.css
