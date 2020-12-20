@@ -18,6 +18,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+
 
 html {
   /*-- Main font sizes --*/
@@ -35,7 +37,7 @@ html {
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    'IM Fell English SC', serif;
   --mono-font:       'Alegreya', serif;
-  --body-font:       'Alegreya', serif;
+  --body-font:      'Cormorant Garamond', serif;
   --navbar-font:     "IM Fell English SC", serif;
 }
 
