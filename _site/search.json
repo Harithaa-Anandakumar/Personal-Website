@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this blog",
+      "description": "Some additional details about the blog",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2020-12-20T22:37:40+01:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Command Line Biologist",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2020-12-20T22:37:40+01:00"
+    },
+    {
+      "path": "projects.html",
+      "title": "Projects this blog",
+      "description": "huhhh",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2020-12-20T22:37:40+01:00"
+    },
+    {
+      "path": "readme.html",
+      "author": [],
+      "contents": "",
+      "last_modified": "2020-12-20T22:37:41+01:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
