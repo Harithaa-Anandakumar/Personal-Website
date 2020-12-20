@@ -34,7 +34,7 @@ html {
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    'Alegreya', serif;
+  --heading-font:    'IM Fell English SC', serif;
   --mono-font:       'Lato', serif;
   --body-font:       'Alegreya', serif;
   --navbar-font:     "IM Fell English SC", serif;
