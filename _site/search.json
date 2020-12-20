@@ -6,14 +6,14 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-12-20T17:37:59+01:00"
+      "last_modified": "2020-12-20T19:09:27+01:00"
     },
     {
       "path": "index.html",
       "title": "Command Line Biologist",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-12-20T17:37:59+01:00"
+      "last_modified": "2020-12-20T19:09:27+01:00"
     },
     {
       "path": "projects.html",
@@ -21,7 +21,13 @@
       "description": "huhhh",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-12-20T17:41:26+01:00"
+      "last_modified": "2020-12-20T19:09:28+01:00"
+    },
+    {
+      "path": "readme.html",
+      "author": [],
+      "contents": "",
+      "last_modified": "2020-12-20T19:09:30+01:00"
     }
   ],
   "collections": ["posts/posts.json"]
