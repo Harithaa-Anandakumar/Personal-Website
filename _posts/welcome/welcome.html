@@ -1443,13 +1443,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
-<p>Hello! It has been a gala time!</p>
-<h1 id="would-you-agree-that">would you agree that</h1>
-<p>Launch and early growth The domains wikipedia.com and wikipedia.org were registered on January 12, 2001[21] and January 13, 2001[22] respectively, and Wikipedia was launched on January 15, 2001,[13] as a single English-language edition at www.wikipedia.com,[23] and announced by Sanger on the Nupedia mailing list.[17] Wikipedia’s policy of “neutral point-of-view”[24] was codified in its first few months. Otherwise, there were relatively few rules initially and Wikipedia operated independently of Nupedia.[17] Originally, Bomis intended to make Wikipedia a business for profit.[25]</p>
-<p>The Wikipedia home page on December 17, 2001 Wikipedia gained early contributors from Nupedia, Slashdot postings, and web search engine indexing. Language editions were also created, with a total of 161 by the end of 2004.[26] Nupedia and Wikipedia coexisted until the former’s servers were taken down permanently in 2003, and its text was incorporated into Wikipedia. The English Wikipedia passed the mark of two million articles on September 9, 2007, making it the largest encyclopedia ever assembled, surpassing the Yongle Encyclopedia made during the Ming Dynasty in 1408, which had held the record for almost 600 years.[27]</p>
-<p>Citing fears of commercial advertising and lack of control in Wikipedia, users of the Spanish Wikipedia forked from Wikipedia to create the Enciclopedia Libre in February 2002.[28] These moves encouraged Wales to announce that Wikipedia would not display advertisements, and to change Wikipedia’s domain from wikipedia.com to wikipedia.org.[29] Brion Vibber applied the change on August 15, 2002.[30]</p>
-<p>Though the English Wikipedia reached three million articles in August 2009, the growth of the edition, in terms of the numbers of new articles and of contributors, appears to have peaked around early 2007.[31] Around 1,800 articles were added daily to the encyclopedia in 2006; by 2013 that average was roughly 800.[32] A team at the Palo Alto Research Center attributed this slowing of growth to the project’s increasing exclusivity and resistance to change.[33] Others suggest that the growth is flattening naturally because articles that could be called “low-hanging fruit”—topics that clearly merit an article—have already been created and built up extensively.[34][35][36]</p>
+<h2 id="dedicated-learning-time">Dedicated Learning Time</h2>
+<p>I’ve found it really hard when I’m under the pump to make time to learn new things. Even if I can see those things have the capacity to make me more productive on a project. It’s like I find learning too enjoyable to be work.</p>
+<p>My response to this realisation was to dedicate the first 30 minutes of my work day to reading, working through examples, or watching videos I have been meaning to get to but have been getting knocked down in my queue by higher priority work.</p>
+<p>I started doing this in my lull after useR and I found the thought of getting to work to spend some time learning helped provide the motivation in the morning I was otherwise struggling for.</p>
+<p>Since doing this I have heard other people talking about this kind of idea. This week Jessie Roberts described to me a similar plan to dedicate 30min each day to things that are ‘important but not urgent’. I like that way of framing it. The forward planning from Lucy’s method seems like exactly this.</p>
+<h2 id="the-viminning">The Viminning</h2>
+<p>Now this is where things get qutie nerdy. My new confidence with typing kicked off an interest in keyboard shortcuts which blossomed into a fully fledged obsession with trying to control as much of my computer as possible with the keyboard.</p>
+<p>The frustrating thing you’ll quickly find if you head down this path is that a lot of the applications you use will have their own unique keyboard shortcut conventions. There’s just too much to memorise. So over the past year I’ve been gradually replacing or configuring my applications so they all use a single control scheme - and that control scheme is inspired by <code>vim</code>.</p>
+<p>I think I’d better do a separate post on the rationale and the details, but here’s a tour:</p>
+<ul>
+<li>I control my desktop and its windows using a tiling window manager called <a href="https://i3wm.org/"><code>i3</code></a>. Window arrangement uses vim inspired keys (h,j,k,l).</li>
+<li>I write code using <a href="http://spacemacs.org/">Spacemacs</a>, which among other things, places a vim control scheme over Emacs (and ESS for R).</li>
+<li>I control my Chromium browser using an extension called <a href="https://chrome.google.com/webstore/detail/vimium-c/hfjbmagddngcpeloejdejnfgbamkjaeg?hl=en">‘Vimium C’</a> that implements an amazingly faithful vim control scheme for a browser.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
+<li>I launch applications with a launcher called <code>rofi</code> that uses a vim navigation scheme.</li>
+<li>I use a terminal file browser called <a href="https://github.com/ranger/ranger"><code>ranger</code></a> that has vim navigation and command scheme.</li>
+</ul>
+<p>So what’s it like to have one unified(ish) keyboard control scheme for all your work tools? It feels fast and instinctive. I feel frustrated by a regular desktop setup now - like I can’t wait to get back to my vimland. Everything is sluggish and clunky by comparison <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<p>I don’t think this path is for everyone, but I do think everyone can benefit from reexamining the painful UIs in their life that they’ve normalised. Frustration and tension make us tired, susceptible to distraction, and give up prematurely. Giving up murders good ideas.</p>
+<figure>
+<img src="/content/images/2019/01/productivity.png" alt="" /><figcaption>My tools: Spacemacs, Chromium, Ranger, and rofi in i3 window manager</figcaption>
+</figure>
+<h1 id="hello-2019---sorry-im-late">Hello 2019 - Sorry I’m late</h1>
+<p>This year my resolution for my work is for less crunchy, more smooth. I’m changing jobs at the beginning of February and I hope to bring some of the planning tools I learned from Lucy in from the start, so that I never reach the peak workloads of 2018. Consequently I am looking forward to more worry free weekends with the family!</p>
+<p>Also, I don’t think I am quite done with this ‘make everything vim’ idea. :P</p>
+<hr />
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>I made a fallback mode in <code>i3</code> where I can operate my mouse pointer using vim keys for websites that force the issue - yes I am aware how crazy this sounds.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>This might partly be due to dropping down the key repeat time for key presses - this is worth trying, trust me.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
