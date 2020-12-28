@@ -32,7 +32,7 @@
 html {
   /*-- Main font sizes --*/
   --title-size:      50px;
-  --body-size:       15px;
+  --body-size:       1.075rem;                   /* edited */
   --code-size:       14px;
   --aside-size:      12px;
   --fig-cap-size:    13px;
@@ -58,8 +58,6 @@ h1, h2, h3, h4, h5 {
 
 body {
   background-color: #fffff8;
-  font-size: 15px;
-  font-weight: 300;
 }
 
 /*-- ARTICLE METADATA --*/
