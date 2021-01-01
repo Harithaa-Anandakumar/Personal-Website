@@ -20,7 +20,7 @@ knitr::include_graphics("crayon.jpg")
 ```
 ## tl;dr version 
  
-Once you have _established_ that you have definitely lost your wallet or whatever containing the `Aufentshaltstitle` or the residence permit, do the following:
+Once you have established that you have definitely lost your wallet or whatever containing the `Aufentshaltstitle` or the residence permit, do the following:
 
 * Register a complaint at the _Fundbüro_ (lost and found) of the city council and/or the place you likely lost your card at (maybe in the university campus or a cafeteria, etc.). The registration complaint at the Fundbüro of the city can also be done online. There is a very high likelihood that it might be found/given there if the city/town you lost it in is small or a student town. 
 
