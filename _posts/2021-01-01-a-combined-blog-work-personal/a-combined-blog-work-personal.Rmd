@@ -1,0 +1,16 @@
+---
+title: "A combined blog? work + personal?"
+description: |
+  A short description of the post.
+author:
+  - name: Harithaa
+    url: https://example.com/norajones
+date: 01-01-2021
+output:
+  distill::distill_article:
+    self_contained: false
+preview: divide.jpg
+
+---
+
+

@@ -7,7 +7,16 @@
     <description>Command Line Biologist
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>A combined blog? work + personal?</title>
+      <dc:creator>Harithaa</dc:creator>
+      <link>https://command-line-biologist.netlify.app/posts/2021-01-01-a-combined-blog-work-personal</link>
+      <description>A short description of the post.</description>
+      <guid>https://command-line-biologist.netlify.app/posts/2021-01-01-a-combined-blog-work-personal</guid>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://command-line-biologist.netlify.app/posts/2021-01-01-a-combined-blog-work-personal/divide.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Lost your `Aufenthaltstitel` / `Residence Perimt` in Germany? </title>
       <dc:creator>Harithaa</dc:creator>

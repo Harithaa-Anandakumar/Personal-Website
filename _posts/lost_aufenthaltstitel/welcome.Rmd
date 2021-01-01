@@ -1,5 +1,5 @@
 ---
-title: "Lost your `Aufenthaltstitel` / `Residence Perimt` in Germany? "
+title: "Lost your `Aufenthaltstitel` / `Residence Permit` in Germany? "
 description: |
   Hello! As an experienced-loser of German `Residence Permit`s and wallets, I am gonna quickly walk through what it is you need to do as of 2020 to re-apply for one
 author:
@@ -32,4 +32,7 @@ Once you have _established_ that you have definitely lost your wallet or whateve
 
 * Also take note of any other cards that were lost in this process (if it was a wallet that was lost), cancel all the bank cards and inform the health insurance and the usual. 
 
-> All of this is ONLY based on my personal experience and was valid in 2020, I do not hold any responsibility for this being future-proof or working in your situation. I would first write to the _Ausländerbehörde_ to be sure of what to do. 
+> All of this is ONLY based on my personal experience and was valid in 2020, I do not hold any responsibility for this being future-proof or working in your situation. I would first write to the _Ausländerbehörde_ to be sure of what to do.
+
+
+##  

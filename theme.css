@@ -100,3 +100,5 @@ d-appendix {
   --hover-color:      #ff6700;
   --bkgd-color:       white;
 }
+
+.posts-list .post-preview .thumbnail img { width: 50%; display: block; }
