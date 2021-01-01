@@ -9,21 +9,13 @@
     <generator>Distill</generator>
     <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Customary 'made a Website' post!</title>
+      <title>Lost your `Aufenthaltstitel` / `Residence Perimt` in Germany? </title>
       <dc:creator>Harithaa</dc:creator>
-      <link>https://command-line-biologist.netlify.app/posts/2020-12-20-customary-made-a-website-post</link>
-      <description>I made a website?</description>
-      <guid>https://command-line-biologist.netlify.app/posts/2020-12-20-customary-made-a-website-post</guid>
+      <link>https://command-line-biologist.netlify.app/posts/lost_aufenthaltstitel</link>
+      <description>Hello! As an experienced-loser of German `Residence Permit`s and wallets, I am gonna quickly walk through what it is you need to do as of 2020 to re-apply for one</description>
+      <guid>https://command-line-biologist.netlify.app/posts/lost_aufenthaltstitel</guid>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Welcome to Command Line Biologist</title>
-      <dc:creator>Harithaa</dc:creator>
-      <link>https://command-line-biologist.netlify.app/posts/welcome</link>
-      <description>Welcome to our new blog, Command Line Biologist. We hope you enjoy 
-reading what we have to say!</description>
-      <guid>https://command-line-biologist.netlify.app/posts/welcome</guid>
-      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://command-line-biologist.netlify.app/posts/lost_aufenthaltstitel/crayon-1650.png" medium="image" type="image/png" width="828" height="912"/>
     </item>
   </channel>
 </rss>
