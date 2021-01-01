@@ -1,5 +1,6 @@
 name: "Personal-Website"
 title: "Command Line Biologist"
+css: theme.css
 description: |
   Command Line Biologist
 base_url: https://command-line-biologist.netlify.app
