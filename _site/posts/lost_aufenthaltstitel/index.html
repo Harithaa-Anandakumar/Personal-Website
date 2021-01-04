@@ -127,7 +127,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","preview","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Lost your `Aufenthaltstitel` / `Residence Permit` in Germany? "]},{"type":"character","attributes":{},"value":["Hello! As an experienced-loser of German `Residence Permit`s and wallets, I am gonna quickly walk through what it is you need to do as of 2020 to re-apply for one"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Harithaa"]}]}]},{"type":"character","attributes":{},"value":["12-20-2020"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["crayon-1650.png"]},{"type":"character","attributes":{},"value":["https://command-line-biologist.netlify.app/posts/lost_aufenthaltstitel/"]},{"type":"character","attributes":{},"value":["https://command-line-biologist.netlify.app/posts/lost_aufenthaltstitel/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","categories","preview","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Lost your `Aufenthaltstitel` / `Residence Permit` in Germany? "]},{"type":"character","attributes":{},"value":["Hello! As an experienced-loser of German `Residence Permit`s and wallets, I am gonna quickly walk through what it is you need to do as of 2020 to re-apply for one"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Harithaa"]}]}]},{"type":"character","attributes":{},"value":["12-20-2020"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["life in Germany","personal"]},{"type":"character","attributes":{},"value":["crayon-1650.png"]},{"type":"character","attributes":{},"value":["https://command-line-biologist.netlify.app/posts/lost_aufenthaltstitel/"]},{"type":"character","attributes":{},"value":["https://command-line-biologist.netlify.app/posts/lost_aufenthaltstitel/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2109,10 +2109,13 @@ d-appendix {
 @import url('https://fonts.googleapis.com/css2?family=Cardo');
 @import url('https://fonts.googleapis.com/css2?family=Alata');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono'); 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+
 html {
   /*-- Main font sizes --*/
   --title-size:      50px;
-  --body-size:      1.075em;
+  --body-size:      25px;
   --code-size:       14px;
   --aside-size:      12px;
   --fig-cap-size:    13px;
@@ -2125,7 +2128,7 @@ html {
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    'Alata', sans-serif;
   --mono-font:       'Crimson Text', serif;
-  --body-font:       'Cardo', serif;
+  --body-font:       'Cormorant Garamond', serif;
   --navbar-font:     'Alata', sans-serif;
 }
 
@@ -2139,18 +2142,16 @@ h1, h2, h3, h4, h5 {
 
 html, body, p {
     
-    font-family: 'Cardo', serif;
-    font-weight: 200;
-    line-height: 1.4; 
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    line-height: 2.8;
     font-size: 1.095em;
-    font-style: normal;
     color: #1f1f1f;
     
 }
 
 body {
   background-color: #fffff8;
-  line-height: 1.3;
 }
 
 /*-- ARTICLE METADATA --*/
@@ -2205,11 +2206,12 @@ li::marker {
 /* this weirdly changes colour of text for within all lists? */
 ul,p {
   color: #404040;
+  line-height: 1.5;
 }
 
 blockquote {
   background: #F7D8D5;
-  border-left: 10px solid #ccc;
+  border: 3px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
@@ -2224,7 +2226,7 @@ code {
   color: #A32826;
   background-color: #f1f1f1;
   padding: 3px;
-  font-size: 120%;
+  font-size: 100%;
 }
 
 
@@ -2406,10 +2408,13 @@ d-appendix d-footnote-list a.footnote-backlink {
 @import url('https://fonts.googleapis.com/css2?family=Cardo');
 @import url('https://fonts.googleapis.com/css2?family=Alata');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono'); 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+
 html {
   /*-- Main font sizes --*/
   --title-size:      50px;
-  --body-size:      1.075em;
+  --body-size:      25px;
   --code-size:       14px;
   --aside-size:      12px;
   --fig-cap-size:    13px;
@@ -2422,7 +2427,7 @@ html {
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    'Alata', sans-serif;
   --mono-font:       'Crimson Text', serif;
-  --body-font:       'Cardo', serif;
+  --body-font:       'Cormorant Garamond', serif;
   --navbar-font:     'Alata', sans-serif;
 }
 
@@ -2436,18 +2441,16 @@ h1, h2, h3, h4, h5 {
 
 html, body, p {
     
-    font-family: 'Cardo', serif;
-    font-weight: 200;
-    line-height: 1.4; 
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    line-height: 2.8;
     font-size: 1.095em;
-    font-style: normal;
     color: #1f1f1f;
     
 }
 
 body {
   background-color: #fffff8;
-  line-height: 1.3;
 }
 
 /*-- ARTICLE METADATA --*/
@@ -2502,11 +2505,12 @@ li::marker {
 /* this weirdly changes colour of text for within all lists? */
 ul,p {
   color: #404040;
+  line-height: 1.5;
 }
 
 blockquote {
   background: #F7D8D5;
-  border-left: 10px solid #ccc;
+  border: 3px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
@@ -2521,7 +2525,7 @@ code {
   color: #A32826;
   background-color: #f1f1f1;
   padding: 3px;
-  font-size: 120%;
+  font-size: 100%;
 }
 
 
@@ -2567,6 +2571,10 @@ em {
 <div class="d-title">
 <h1>Lost your Aufenthaltstitel / Residence Permit in Germany?</h1>
 <!--radix_placeholder_categories-->
+<div class="dt-tags">
+  <a href="../../index.html#category:life_in_Germany" class="dt-tag">life in Germany</a>
+  <a href="../../index.html#category:personal" class="dt-tag">personal</a>
+</div>
 <!--/radix_placeholder_categories-->
 <p><p>Hello! As an experienced-loser of German <code>Residence Permit</code>s and wallets, I am gonna quickly walk through what it is you need to do as of 2020 to re-apply for one</p></p>
 </div>

@@ -8,6 +8,9 @@ date: 12-20-2020
 output:
   distill::distill_article:
     self_contained: false
+categories:
+  - life in Germany
+  - personal
 preview: crayon-1650.png
 ---
 ```{r setup, include=FALSE}
@@ -20,7 +23,8 @@ knitr::include_graphics("crayon.jpg")
 ```
 ## tl;dr version 
  
-Once you have established that you have definitely lost your wallet or whatever containing the `Aufentshaltstitle` or the residence permit, do the following:
+Once you have established that you have definitely lost your wallet or whatever containing the `Aufentshaltstitle` or the residence permit, do the following: 
+
 
 * Register a complaint at the _Fundbüro_ (lost and found) of the city council and/or the place you likely lost your card at (maybe in the university campus or a cafeteria, etc.). The registration complaint at the Fundbüro of the city can also be done online. There is a very high likelihood that it might be found/given there if the city/town you lost it in is small or a student town. 
 
@@ -30,9 +34,11 @@ Once you have established that you have definitely lost your wallet or whatever 
 
 * Then, they will issue a temporary residence permit _Aufenthaltsfiktion_, which gives you the legal rights to stay, and then you go over the process of re-applying for your residence permit as before (you will again have to pay for the new permit). 
 
+
 * Also take note of any other cards that were lost in this process (if it was a wallet that was lost), cancel all the bank cards and inform the health insurance and the usual. 
 
 > All of this is ONLY based on my personal experience and was valid in 2020, I do not hold any responsibility for this being future-proof or working in your situation. I would first write to the _Ausländerbehörde_ to be sure of what to do.
+
 
 
 ##  
