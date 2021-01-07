@@ -1,9 +1,7 @@
 ---
 title: "Projects this blog"
 description: |
-  huhhh
+  Coming soon 
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+Coming soon, hopefully ;) 
